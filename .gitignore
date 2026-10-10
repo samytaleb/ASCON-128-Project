@@ -1,0 +1,12 @@
+# Generated HDL simulation / compilation artifacts
+*.qdb
+*.qpg
+*.qtl
+*.vcd
+*.wlf
+*.log
+*.bak
+/transcript
+/work/
+/db/
+/incremental_db/
