@@ -16,3 +16,9 @@ Read the report for project context, then inspect the top-level module (`ascon_t
 ## Notes
 
 This is an educational hardware-design artifact, **not a validated, production-ready cryptographic implementation**. Security-sensitive use requires independent verification, test vectors, timing analysis, and review.
+
+## Build artifacts and simulation reproducibility
+
+The repository currently includes simulator-generated artifacts (for example `.qdb`, `.qpg` and `.qtl` files) alongside the SystemVerilog sources. A `.gitignore` helps prevent new generated files from being added, but **does not remove already tracked files**.
+
+For reproducibility, document the original simulator and version, the compilation order, test vectors and the exact testbench commands. No simulation command is claimed as verified here.
